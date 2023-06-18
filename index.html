@@ -12,45 +12,48 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <style>
-      body {
-        font-family: "Roboto", sans-serif;
-      }
-    </style>
   </head>
   <body>
     <header>
       <div class="container">
-        <div class="wrapper">
-          <a href="/webstudio.html" class="logo"
-            ><span class="web">Web</span>Studio</a
+        <div class="container__wrapper">
+          <a href="/webstudio.html" class="header-logo"
+            ><span class="header-logo__hightlight">Web</span>Studio</a
           >
-          <nav class="nav-list">
-            <menu class="menu-nav">
+          <nav class="navigation">
+            <menu class="navigation__menu">
               <li>
                 <a href="">Agencja</a>
-                <div class="underscore"></div>
+                <div class="navigation__item-underscore"></div>
               </li>
               <li><a href="./portfolio.html">Portfolio</a></li>
               <li><a href="">Kontakt</a></li>
             </menu>
           </nav>
           <div class="header-contact">
-            <a class="contact" href="mailto:info@devstudio.com">
-              <svg class="envelope-icon" width="16px" height="12px">
+            <a class="header-contact__link" href="mailto:info@devstudio.com">
+              <svg
+                class="header-contact__envelope-icon"
+                width="16px"
+                height="12px"
+              >
                 <use href="./images/icons.svg#icon-envelope"></use>
               </svg>
               info@devstudio.com</a
             >
-            <a class="contact" href="tel:+48111111111">
-              <svg class="smartphone-icon" width="10px" height="16px">
+            <a class="header-contact__link" href="tel:+48111111111">
+              <svg
+                class="header-contact__smartphone-icon"
+                width="10px"
+                height="16px"
+              >
                 <use href="./images/icons.svg#icon-smartphone"></use>
               </svg>
               +48 111 111 111
@@ -61,11 +64,13 @@
     </header>
 
     <main>
-      <div class="section-one">
-        <div class="top">
-          <h1 class="header-top">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-          <div class="buttomm">
-            <button class="button-main" type="button" data-modal-open>
+      <div class="section-container">
+        <div class="section-grid">
+          <h1 class="header-title">
+            EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU
+          </h1>
+          <div class="main-button">
+            <button class="main-button__button" type="button" data-modal-open>
               Zamów usługe
             </button>
           </div>
@@ -76,52 +81,52 @@
         <div class="container">
           <ul class="lorem-ipsum-list">
             <li>
-              <div class="icon-background">
-                <svg class="icons-lorem" width="70px" height="70px">
+              <div class="lorem-ipsum-list__icon-background">
+                <svg class="lorem-ipsum-list__icon" width="70px" height="70px">
                   <use href="./images/icons.svg#icon-antenna1"></use>
                 </svg>
               </div>
-              <h5 class="lorem-ipsum-header">LOREM IPSUM</h5>
-              <p class="text">
+              <h5 class="lorem-ipsum-list__header">LOREM IPSUM</h5>
+              <p class="lorem-ipsum-list__text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
                 arcu sem. Sed non sodales dui. Interdum et malesuada
               </p>
             </li>
 
             <li>
-              <div class="icon-background">
-                <svg class="icons-lorem" width="70px" height="70px">
+              <div class="lorem-ipsum-list__icon-background">
+                <svg class="lorem-ipsum-list__icon" width="70px" height="70px">
                   <use href="./images/icons.svg#icon-clock1"></use>
                 </svg>
               </div>
-              <h5 class="lorem-ipsum-header">LOREM IPSUM</h5>
-              <p class="text">
+              <h5 class="lorem-ipsum-list__header">LOREM IPSUM</h5>
+              <p class="lorem-ipsum-list__text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
                 arcu sem. Sed non sodales dui. Interdum et malesuada
               </p>
             </li>
 
             <li>
-              <div class="icon-background">
-                <svg class="icons-lorem" width="70px" height="70px">
+              <div class="lorem-ipsum-list__icon-background">
+                <svg class="lorem-ipsum-list__icon" width="70px" height="70px">
                   <use href="./images/icons.svg#icon-diagram1"></use>
                 </svg>
               </div>
-              <h5 class="lorem-ipsum-header">LOREM IPSUM</h5>
-              <p class="text">
+              <h5 class="lorem-ipsum-list__header">LOREM IPSUM</h5>
+              <p class="lorem-ipsum-list__text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
                 arcu sem. Sed non sodales dui. Interdum et malesuada
               </p>
             </li>
 
             <li>
-              <div class="icon-background">
-                <svg class="icons-lorem" width="70px" height="70px">
+              <div class="lorem-ipsum-list__icon-background">
+                <svg class="lorem-ipsum-list__icon" width="70px" height="70px">
                   <use href="./images/icons.svg#icon-astronaut1"></use>
                 </svg>
               </div>
-              <h5 class="lorem-ipsum-header">LOREM IPSUM</h5>
-              <p class="text">
+              <h5 class="lorem-ipsum-list__header">LOREM IPSUM</h5>
+              <p class="lorem-ipsum-list__text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
                 arcu sem. Sed non sodales dui. Interdum et malesuada
               </p>
@@ -131,10 +136,10 @@
       </section>
 
       <section>
-        <h2 class="header-two-section">Czym się zajmujemy</h2>
+        <h2 class="what-we-do-section">Czym się zajmujemy</h2>
         <div class="container">
-          <ul class="what-we-do-image">
-            <li class="img-label">
+          <ul class="what-we-do-section__list">
+            <li class="what-we-do-section__item">
               <img
                 src="./images/img1.jpg"
                 width="370"
@@ -142,54 +147,54 @@
                 alt="Programer
           working his desk office"
               />
-              <div class="div-label">
-                <p class="label">APLIKACJE KOMPUTEROWE</p>
+              <div class="what-we-do-section__label">
+                <p class="what-we-do-section__text">APLIKACJE KOMPUTEROWE</p>
               </div>
             </li>
 
-            <li class="img-label">
+            <li class="what-we-do-section__item">
               <img
                 src="./images/img2.jpg"
                 width="370"
                 height="294"
                 alt="Designers is working interface mobile phones"
               />
-              <div class="div-label">
-                <p class="label">APLIKACJE MOBILNE</p>
+              <div class="what-we-do-section__label">
+                <p class="what-we-do-section__text">APLIKACJE MOBILNE</p>
               </div>
             </li>
 
-            <li class="img-label">
+            <li class="what-we-do-section__item">
               <img
                 src="./images/img3.jpg"
                 width="370"
                 height="294"
                 alt="Creative artist web design with working colour selection graphic tablet"
               />
-              <div class="div-label">
-                <p class="label">ROZWIĄZANIA GRAFICZNE</p>
+              <div class="what-we-do-section__label">
+                <p class="what-we-do-section__text">ROZWIĄZANIA GRAFICZNE</p>
               </div>
             </li>
           </ul>
         </div>
       </section>
 
-      <section class="team-block">
+      <section class="team-section">
         <div class="container">
-          <h2 class="header-two">Nasz zespół</h2>
-          <ul class="team-worker">
-            <li class="team-worker-item">
-              <figure class="image">
+          <h2 class="team-section__header">Nasz zespół</h2>
+          <ul class="team-section__list">
+            <li class="team-section__item">
+              <figure class="team-section__image">
                 <img
                   src="./images/img4.jpg"
                   width="270"
                   height="260"
                   alt="Man"
                 />
-                <figcaption class="caption">
-                  <p class="name">John Doe</p>
-                  <p class="profession">Product Designer</p>
-                  <ul class="icon-social-group">
+                <figcaption class="team-section__decsription">
+                  <p class="team-section__name">John Doe</p>
+                  <p class="team-section__profession">Product Designer</p>
+                  <ul class="social-icon">
                     <li class="icon-social">
                       <a href="#">
                         <svg class="social-icon-color" width="20" height="20">

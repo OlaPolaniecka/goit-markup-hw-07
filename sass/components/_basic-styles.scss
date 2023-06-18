@@ -1,0 +1,41 @@
+ul {
+  list-style-type: none;
+}
+
+menu {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.container__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+}
+
+.container {
+  width: 1200px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+figure.figure-border {
+  margin: 0 auto;
+}
+
+header {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+}
