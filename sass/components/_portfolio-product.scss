@@ -36,7 +36,7 @@
 
   &__description {
     font-weight: 400;
-    font-size: 18px;
+    font-size: $fontSizeBig;
     line-height: 28px;
     letter-spacing: 0.03em;
     color: $buttonColor;
@@ -45,7 +45,7 @@
 
   &__title {
     color: $textColor;
-    font-size: 18px;
+    font-size: $fontSizeBig;
     font-weight: 700;
     line-height: 36px;
     margin-top: 20px;
@@ -55,8 +55,8 @@
   }
 
   &__text {
-    color: #757575;
-    font-size: 16px;
+    color: $contactColor;
+    font-size: $fontSizeMedium;
     font-weight: 400;
     line-height: 30px;
     margin-top: 4px;

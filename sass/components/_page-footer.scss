@@ -31,7 +31,7 @@
 
   &__street {
     color: $buttonColor;
-    font-size: 14px;
+    font-size: $fontSizeSmall;
     font-weight: 400;
     line-height: 24px;
     padding-bottom: 9px;
@@ -39,7 +39,7 @@
 
   &__contact a {
     color: $buttonColor;
-    font-size: 14px;
+    font-size: $fontSizeSmall;
     font-weight: 400;
     line-height: 24px;
     display: block;

@@ -3,7 +3,7 @@
 
   &__header {
     color: $textColor;
-    font-size: 36px;
+    font-size: $fontSizeTitle;
     font-weight: 700;
     line-height: 42px;
     display: flex;
@@ -38,14 +38,14 @@
 
   &__name {
     color: $textColor;
-    font-size: 16px;
+    font-size: $fontSizeMedium;
     font-weight: 500;
     line-height: 19px;
   }
 
   &__profession {
     color: $contactColor;
-    font-size: 16px;
+    font-size: $fontSizeMedium;
     font-weight: 400;
     line-height: 19px;
     padding-bottom: 16px;

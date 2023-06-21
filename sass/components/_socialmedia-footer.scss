@@ -6,8 +6,8 @@
 
   &__title {
     color: $buttonColor;
-    font-family: Roboto;
-    font-size: 14px;
+    font-family: $fontFamilyGlobal;
+    font-size: $fontSizeSmall;
     font-weight: 700;
     line-height: 16px;
     letter-spacing: 0.03em;

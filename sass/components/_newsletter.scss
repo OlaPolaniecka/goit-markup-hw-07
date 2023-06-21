@@ -7,7 +7,7 @@
 
   &__text {
     font-weight: 700;
-    font-size: 14px;
+    font-size: $fontSizeSmall;
     line-height: 16px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
@@ -38,7 +38,7 @@
     border: none;
     color: $buttonColor;
     font-weight: 700;
-    font-size: 16px;
+    font-size: $fontSizeMedium;
     line-height: 30px;
     letter-spacing: 0.06em;
     margin-bottom: 0;
