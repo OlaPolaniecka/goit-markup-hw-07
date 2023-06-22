@@ -111,9 +111,39 @@ div.portfolio-product__container:hover div.portfolio-product__overlay {
 }
 
 .navigation {
+  margin-right: 453px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+.navigation__menu {
   display: flex;
   justify-content: space-between;
   gap: 46px;
+}
+.navigation__link {
+  color: #212121;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+}
+.navigation__link:hover {
+  color: #2196f3;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.navigation__item-underscore {
+  position: relative;
+  top: 28px;
+}
+.navigation__item-underscore::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  display: block;
+  width: 53px;
+  height: 4px;
+  background-color: #2196f3;
+  border-radius: 2px;
 }
 
 .header-contact {
@@ -154,6 +184,7 @@ div.portfolio-product__container:hover div.portfolio-product__overlay {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  margin: 0 auto;
 }
 
 .section-grid {
@@ -437,7 +468,7 @@ div.portfolio-product__container:hover div.portfolio-product__overlay {
 }
 .socialmedia-footer__title {
   color: #ffffff;
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-size: 14px;
   font-weight: 700;
   line-height: 16px;

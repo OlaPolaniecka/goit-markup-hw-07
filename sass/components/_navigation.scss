@@ -36,17 +36,5 @@
       background-color: $accentColor;
       border-radius: 2px;
     }
-
-    &--current {
-      &::after {
-        content: "";
-        position: absolute;
-        display: block;
-        width: 58px;
-        height: 4px;
-        background-color: $accentColor;
-        border-radius: 2px;
-      }
-    }
   }
 }
