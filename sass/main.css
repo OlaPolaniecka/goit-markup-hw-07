@@ -263,8 +263,6 @@ div.portfolio-product__container:hover div.portfolio-product__overlay {
   line-height: 42px;
   display: flex;
   justify-content: center;
-  padding-bottom: 50px;
-  padding-top: 94px;
 }
 .what-we-do-section__list {
   display: flex;
